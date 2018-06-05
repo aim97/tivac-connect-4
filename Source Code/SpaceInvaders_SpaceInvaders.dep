@@ -1,0 +1,53 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x5197C8FA)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x5B11AF88)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5B151B99)
+F (.\random.s)(0x5349B084)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\SpaceInvaders.c)(0x5B168C09)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (controller.h)(0x5B168CE5)
+I (Log.h)(0x5B151B65)
+I (UART.h)(0x5B151B02)
+I (Connection.h)(0x5B169FE0)
+I (Display.h)(0x5B1524BB)
+I (Nokia5110.h)(0x5B151B99)
+I (Random.h)(0x5B151BA7)
+I (TExaS.h)(0x569B4718)
+I (env.h)(0x5B1693BA)
+I (GameEnv.h)(0x5B168E9F)
+I (agent.h)(0x5B15B2A1)
+I (tm4c123gh6pm.h)(0x51D44682)
+F (.\TExaS.c)(0x569B476C)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x569B4718)
+F (.\agent.c)(0x5B16939A)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\agent.o --omf_browse .\agent.crf --depend .\agent.d)
+I (agent.h)(0x5B15B2A1)
+I (env.h)(0x5B1693BA)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+F (.\Connection.c)(0x5B168F80)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\connection.o --omf_browse .\connection.crf --depend .\connection.d)
+I (Connection.h)(0x5B169FE0)
+I (tm4c123gh6pm.h)(0x51D44682)
+F (.\controller.c)(0x5B1691EA)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\controller.o --omf_browse .\controller.crf --depend .\controller.d)
+I (controller.h)(0x5B168CE5)
+I (Log.h)(0x5B151B65)
+I (UART.h)(0x5B151B02)
+I (Connection.h)(0x5B169FE0)
+I (Display.h)(0x5B1524BB)
+I (Nokia5110.h)(0x5B151B99)
+I (Random.h)(0x5B151BA7)
+I (TExaS.h)(0x569B4718)
+I (env.h)(0x5B1693BA)
+I (GameEnv.h)(0x5B168E9F)
+I (agent.h)(0x5B15B2A1)
+I (tm4c123gh6pm.h)(0x51D44682)
+F (.\Display.c)(0x5B169270)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\display.o --omf_browse .\display.crf --depend .\display.d)
+I (Display.h)(0x5B1524BB)
+I (Nokia5110.h)(0x5B151B99)
+I (Random.h)(0x5B151BA7)
+I (TExaS.h)(0x569B4718)
+F (.\env.c)(0x5B16973B)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\env.o --omf_browse .\env.crf --depend .\env.d)
+I (env.h)(0x5B1693BA)
+F (.\GameEnv.c)(0x5B169085)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\gameenv.o --omf_browse .\gameenv.crf --depend .\gameenv.d)
+I (GameEnv.h)(0x5B168E9F)
+I (env.h)(0x5B1693BA)
+F (.\UART.c)(0x54A0F6BE)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (tm4c123gh6pm.h)(0x51D44682)
+I (UART.h)(0x5B151B02)

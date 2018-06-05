@@ -1,0 +1,13 @@
+.\controller.o: controller.c
+.\controller.o: controller.h
+.\controller.o: Log.h
+.\controller.o: UART.h
+.\controller.o: Connection.h
+.\controller.o: Display.h
+.\controller.o: Nokia5110.h
+.\controller.o: Random.h
+.\controller.o: TExaS.h
+.\controller.o: env.h
+.\controller.o: GameEnv.h
+.\controller.o: agent.h
+.\controller.o: tm4c123gh6pm.h
